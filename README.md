@@ -7,13 +7,16 @@ This repository is an example integration [mantine](https://mantine.dev) and [Ne
 - [Typescript](http://www.typescriptlang.org/)
 - [Dark theme](https://mantine.dev/guides/dark-theme/)
 
-Light theme
+### Light theme
+
 ![home](img/light_theme.png)
 
-Dark theme
+### Dark theme
+
 ![home](img/dark_theme.png)
 
-Search
+### Search
+
 ![home](img/search.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
