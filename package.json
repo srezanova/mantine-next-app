@@ -1,0 +1,30 @@
+{
+  "homepage": "https://mantinedev.github.io/mantine-next-http-status-code",
+  "name": "mantine-next-http-status-code",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "publish": "subpath-as-branch --path dist --branch gh-pages"
+  },
+  "dependencies": {
+    "@mantine/core": "^1.0.1",
+    "@mantine/hooks": "^1.0.1",
+    "@modulz/radix-icons": "^4.0.0",
+    "next": "10.2.0",
+    "postcss": "^8.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-jss": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.4",
+    "babel-plugin-transform-define": "^2.0.0",
+    "gh-pages": "^3.1.0",
+    "typescript": "^4.2.4"
+  }
+}
